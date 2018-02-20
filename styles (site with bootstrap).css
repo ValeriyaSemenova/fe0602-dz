@@ -1,0 +1,61 @@
+.navbar {
+	margin-left: 100px;
+}
+
+.navbar a {
+	margin-right: 10px;
+	-webkit-transition: background-color 1s ease-out;
+	-ms-transition: background-color 1s ease-out;
+    -moz-transition: background-color 1s ease-out;
+    -o-transition: background-color 1s ease-out;
+    transition: background-color 1s ease-out;
+}
+
+.navbar a:hover {
+	background: #C0C0C0;
+	border-radius: 4px;
+    cursor: pointer;
+}
+
+.search {
+	margin-right: 200px;
+}
+
+
+.block { 
+	position: relative;
+	width: 60%; 
+	height: 1700px; 
+	margin: 20px auto;  
+	color: black; 
+	padding: 10px;
+}
+
+.block>h6, h5, p {
+	text-align: center;
+	color: #8D8D8D;
+}
+
+.articleimages {
+	position: absolute;
+	top: 80px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.text {
+	position: absolute;
+	top: 1000px;
+}
+
+.articleimages1 {
+	position: absolute;
+	top: 1135px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.buttonshare {
+	position: absolute;
+	left: 0;
+}

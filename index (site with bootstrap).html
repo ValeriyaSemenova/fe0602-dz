@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Сайт с компонентами из Bootstrap</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+	<header><nav class="navbar navbar-expand-lg navbar-light bg-light navbar">
+  		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    		<div class="navbar-nav">
+     			 <a class="nav-item nav-link" href="#">Blog</a>
+     			 <a class="nav-item nav-link" href="#">About</a>
+     		 	 
+     		 	 <div class="dropdown">
+     		 	 <a class="nav-item nav-link btn dropdown-toggle" href="#" role="button" id="dropdownMenuAbout" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categories</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuAbout">
+  						<a class="dropdown-item" href="#">Beauty</a>
+  				 	    <a class="dropdown-item" href="#">Decor</a>
+   					    <a class="dropdown-item" href="#">Fashion</a>
+   					    <a class="dropdown-item" href="#">Food</a>
+   					    <a class="dropdown-item" href="#">Travel</a>
+ 					 </div></div>
+     			 <a class="nav-item nav-link" href="#">Contact</a>
+     			 <div class="dropdown">
+     			 <a class="nav-item nav-link btn dropdown-toggle" href="#" role="button" id="dropdownMenuArchive" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Archive</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuArchive">
+   					    <a class="dropdown-item" href="#">January 2018</a>
+ 					    <a class="dropdown-item" href="#">December 2017</a>
+ 					    <a class="dropdown-item" href="#">November 2017</a>
+ 					    <a class="dropdown-item" href="#">October 2017</a>
+ 					    <a class="dropdown-item" href="#">September 2017</a>
+ 					 </div></div>
+
+		<button type="button" class="btn btn-primary btn-secondary emailbutton" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo" data-toggle="tooltip" data-placement="bottom" title="Write a message">Email</button>
+		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ 			<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+     		 <div class="modal-header">
+     		   <h5 class="modal-title" id="exampleModalLabel">Write a message</h5>
+       			 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+         		 <span aria-hidden="true">&times;</span></button></div>	
+     		 <div class="modal-body">
+        		 <form>
+         		 <div class="input-group mb-3">
+ 				 <div class="input-group-prepend">
+   				 <span class="input-group-text" id="basic-addon1">@</span></div>
+  				<input type="text" class="form-control" placeholder="Email" aria-label="Имейл" aria-describedby="basic-addon1" required="required"></div>
+          	<div class="form-group">
+            <label for="message-text" class="col-form-label">Message:</label>
+            <textarea class="form-control" id="message-text" required="required"></textarea></div>
+         		</form>
+           	</div>
+      	<div class="modal-footer">
+       	 <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+       	 <button type="button" class="btn btn-primary">Send message</button>
+      	</div>
+    		</div>
+  			</div>
+		</div>
+     	</div>
+		</div>
+
+  		  <form class="form-inline my-2 my-lg-0 search">
+   	 		  <input class="form-control mr-sm-2 searchfield" type="search" placeholder="Search" aria-label="Search">
+    		  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+   		 </form>
+	</nav>
+
+	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  		<ol class="carousel-indicators">
+  		  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+  		  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+ 		</ol>
+    <div class="carousel-inner">
+    	<div class="carousel-item active">
+    	  <img class="d-block w-100" src="images/kansikakkonen-1600x650.jpg" alt="Первый слайд">
+   		</div>
+    	<div class="carousel-item">
+   		  <img class="d-block w-100" src="images/kansimaybe-3600x1462.jpg" alt="Второй слайд">
+    	</div>
+    	<div class="carousel-item">
+      	  <img class="d-block w-100" src="images/kansimaybe55-3600x1462.jpg" alt="Третий слайд">
+    	</div>
+  	</div>
+  	
+  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+  	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  	    <span class="sr-only">Previous</span>
+ 	</a>
+  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+  	</a>
+	</div></header>
+
+
+	<article>
+      <div class="block"><h6>18/02/18</h6>
+			<h5>TODAY I HAVE…</h5>
+   			<div class="articleimages"><img src="images/minnie_sunday1.jpg" alt="Minnie"></div>
+			<div class="text"><p>&#10052; …enjoyed a true winter day outside. There were so many others doing the same, enjoying the fresh air and sunlight.</p>
+			<p>&#10052; Tänään tuli nautittua ilmoiltaan parhaimmasta talvipäivästä ulkona. Moni muu oli tehnyt samoin, lähtenyt kävelylle imemään auringonvaloa ja nauttimaan vaan raikkaasta säästä.</p></div>
+			<div class="articleimages1"><img src="images/minnie_sunday3.jpg" alt="Minnie"></div>
+  			<div class="buttonshare"><button class="btn" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">SHARE</button>
+			<div class="collapse" id="collapseExample">
+  			<div class="card card-body">You can share this article on Facebook, Twitter</div></div></div>
+  		</div>
+	</article>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
