@@ -24,7 +24,7 @@ body {
 
 .navbar {
 	position: absolute;
-	left: 600px;
+	left: 650px;
 	list-style-type: none;
 	padding-left: 0;
 	margin: 0;
@@ -88,7 +88,7 @@ body {
 .search {
 	position: absolute;
 	top: 32px;
-	left: 600px;
+	left: 650px;
 	font-size: 14px;
 	font-family: Arial, Helvetica, sans-serif;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 [type="text"] {
-    width: 410px;
+    width: 350px;
     height: 18px;
     padding: 5px 10px 5px 10px;
     border: 1px solid #999;
@@ -113,17 +113,11 @@ body {
 }
 
 
-div #corner3 {
-	position: absolute;
-	top: 30px;
-	left: 1050px;
-}
-
 .white {
+	position: absolute;
 	background: #dddddd;
 	width: 100%;
 	height: 33px;
-	position: absolute;
 	top: 78px;
 }
 
@@ -138,17 +132,19 @@ div.white > p {
 	font-size: 14px;
 }
 
-div #corner1 {
+
+#corner1 {
 	position: absolute;
 	top: 58px;
 	left: 255px;
 }
 
-div #corner2 {
+
+#corner11 {
 	position: absolute;
-	top: 40px;
-	left: 635px;
-	height: 52px;
+	top: 23px;
+	left: 680px;
+	height: 70px;
 }
 
 .grey {
@@ -164,7 +160,7 @@ div #corner2 {
 	top: 116px;
 }
 
-.image>img {
+.image > img {
 	width: 100%;
 }
 
@@ -213,17 +209,17 @@ div.block p {
 	height: 48px;
 }
 
-div #corner4 {
+#corner4 {
 	position: absolute;
 	top: 3px;
 	left: 1030px;
 }
 
-div #corner5 {
+#corner5 {
 	position: absolute;
 	top: 78px;
 	left: 744px;
-}
+} 
 
 
 .grey2 {
@@ -234,3 +230,306 @@ div #corner5 {
 	height: 5px;
 }
 
+
+main {
+	position: relative;
+	background: #e5e5e5;
+	width: 100%;
+	top: 270px;
+	height: 1200px;
+}
+
+main > p {
+	text-align: center;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+} 
+
+main span {
+	font-weight: bolder;
+	font-size: large;
+
+}
+
+#corner6 {
+	position: absolute;
+	top: -40px;
+	left: 200px;
+}
+
+.movies {
+	position: relative;
+	width: 760px;
+	height: 330px;
+	left: 145px;
+	margin: 0;
+}
+
+.spiderman {
+	position: absolute;
+	width: 230px;
+	height: 330px;
+	left: 5px;
+}
+
+.spiderman h4 {
+	margin: 0;
+	font-weight: lighter;
+	padding-bottom: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.spiderman img {
+	display: inline-block;
+	border: 3px solid #c0c0c0;
+}
+
+.spiderman p{
+	margin: 0;
+	font-size: 13.5px;
+	padding-top: 15px;
+}
+
+.spiderman button {
+	margin: 0;
+	background: #262626;
+	width: 135px;
+	height: 30px;
+	border: #262626;
+	border-radius: 4px;
+	margin-top: 10px;
+}
+
+.spiderman a {
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#rating1 {
+	position: absolute;
+	top: 40px;
+	left: 120px;
+}
+
+#corner7 {
+	position: absolute;
+	top: 159px;
+	left: 8px;
+	height: 30px;
+}
+
+.linkoln {
+	position: absolute;
+	width: 230px;
+	height: 330px;
+	left: 265px;
+}
+
+.linkoln h4 {
+	margin: 0;
+	line-height: 16px;
+	font-weight: lighter;
+	padding-bottom: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkoln img {
+	display: inline-block;
+	border: 3px solid #c0c0c0;
+}
+
+.linkoln p{
+	margin: 0;
+	font-size: 13.5px;
+	padding-top: 15px;
+}
+
+.linkoln button {
+	margin: 0;
+	background: #262626;
+	width: 135px;
+	height: 30px;
+	border: #262626;
+	border-radius: 4px;
+	margin-top: 27px;
+}
+
+.linkoln a {
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#rating2 {
+	position: absolute;
+	top: 40px;
+	left: 380px;
+}
+
+#corner8 {
+	position: absolute;
+	top: 159px;
+	left: 268px;
+	height: 30px;
+}
+
+.darkknight {
+	position: absolute;
+	width: 230px;
+	height: 330px;
+	left: 525px;
+}
+
+.darkknight h4 {
+	margin: 0;
+	line-height: 16px;
+	font-weight: lighter;
+	padding-bottom: 1px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.darkknight img {
+	display: inline-block;
+	border: 3px solid #c0c0c0;
+}
+
+.darkknight p{
+	margin: 0;
+	font-size: 13.5px;
+	padding-top: 15px;
+}
+
+.darkknight button {
+	margin: 0;
+	background: #262626;
+	width: 135px;
+	height: 30px;
+	border: #262626;
+	border-radius: 4px;
+	margin-top: 27px;
+}
+
+.darkknight a {
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#rating3 {
+	position: absolute;
+	top: 40px;
+	left: 640px;
+}
+
+#corner9 {
+	position: absolute;
+	top: 159px;
+	left: 528px;
+	height: 30px;
+}
+
+
+.updatings {
+	position: absolute;
+	top: 100px;
+	left: 905px;
+	height: 270px;
+	width: 255px;
+	background: #212121;
+	margin: 0;
+	border-radius: 4px;
+}
+
+.updatings h3 {
+	text-align: right;
+	margin: 10px 3px;
+	padding: 5px 15px;
+	background: #0f0f0f;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.updatings span {
+	font-size: 14px;
+	color: #f70f3b;
+}
+
+.cobra img {
+	border: 3px solid #3b3b3b;
+	margin: 0 5px;
+	float: left;
+}
+
+.cobra1 {
+	padding: 0 5px;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.cobra1 a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.cobra1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding-top: 3px;
+}
+
+hr {
+	margin: 7px;
+}
+
+.iceage img {
+	border: 3px solid #3b3b3b;
+	margin: 0 5px;
+	float: left;
+}
+
+.iceage1 {
+	padding: 0 5px;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+.iceage1 a {
+	font-size: 14px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.iceage1 p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding-top: 3px;
+}
+
+.allupdatings {
+	text-align: center;
+	color: #fff;
+	margin: 13px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#corner10 {
+	position: absolute;
+	left: 5px;
+	top: 20px;
+}
